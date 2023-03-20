@@ -75,7 +75,7 @@
     <img align="center" height=210px; src="https://github-readme-stats.vercel.app/api?username=clrsurya11&show_icons=true&locale=en" alt="clrsurya11" />
   </div>
 </div>
-<br><br>
+<br>
 <div align="center">
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=clrsurya11&" alt="clrsurya11" />
 </div>
