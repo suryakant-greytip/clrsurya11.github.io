@@ -67,13 +67,13 @@
 <br>
 
 <div align="center">
-    <img align="center" height=210px; src="https://github-readme-stats.vercel.app/api/top-langs?username=clrsurya11&show_icons=true&locale=en&layout=compact" alt="clrsurya11" />
+    <img align="center" height=290px; width=100%; src="https://github-readme-stats.vercel.app/api/top-langs?username=clrsurya11&show_icons=true&locale=en&layout=compact" alt="clrsurya11" />
 </div> 
 <br>
 <div align="center">
-  <img align="center" height=210px; src="https://github-readme-stats.vercel.app/api?username=clrsurya11&show_icons=true&locale=en" alt="clrsurya11" />
+  <img align="center" height=260px; width=100%; src="https://github-readme-stats.vercel.app/api?username=clrsurya11&show_icons=true&locale=en" alt="clrsurya11" />
 </div>
 <br>
 <div align="center">
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=clrsurya11&" alt="clrsurya11" />
+<img align="center" width=100%; height=250px; src="https://github-readme-streak-stats.herokuapp.com/?user=clrsurya11&" alt="clrsurya11" />
 </div>
