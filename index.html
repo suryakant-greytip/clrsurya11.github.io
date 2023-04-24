@@ -17,7 +17,7 @@
 
         <nav class="navbar">
             <!-- <a href="#home"> <img id="logo"  src="./Images/logo.avif" alt=""></a> -->
-            <a href="#home"  class="active">HOME</a >
+            <a href="#home"  class="nav-link home" id="active">HOME</a >
             <a href="#about"  class="nav-link about" >ABOUT</a >
             <a href="#skills" class="nav-link skills" >SKILLS</a >
             <a href="#projects" class="nav-link projects" >PROJECTS</a >
@@ -30,21 +30,25 @@
     </div>
 
     <!-- homepage -->
-    <div id="abo">
+    <!-- <div id="abo"> -->
     <section id="home" class="home">
-        <div id="card1">
-            <h4>Hi<img width="50px"src="https://zoneanas.github.io/images/hello.gif" alt="">I am</h4>
-            <h4 id="user-detail-name" > Suryakant Singh</h4>
-            <h6 id="user-detail-intro" >A JAVA BACKEND DEVELOPER</h6>
-            <br>
+        <div id="home-content">
+            <h3>Hello <img width="50px"src="https://zoneanas.github.io/images/hello.gif" alt=""> It's Me</h3>
+            <h1 id="user-detail-name" > Suryakant Singh</h1>
+            <h3 id="user-detail-intro" >And I'm a <span>Java Developer</span></h3>
 
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            </div>
 
-                <li><button id="resume-button-2" onclick="resume()"><a id="resume-link-2" class="nav-link resume" href="./Image/Suryakant-Singh-Resume.pdf" download="Suryakant_Singh_Resume" target="_blank">Resume</a></button></li>
+            <a id="resume-button-2" onclick="resume()" id="resume-link-2" class="nav-link resume" href="./Image/Suryakant-Singh-Resume.pdf" download="Suryakant_Singh_Resume" target="_blank">Download CV</a>
                      
         </div>
-        <div >
-           
-            <img class="home-img" width="80%" src="./Image/DSCF8311.png" alt="">
+        <div class="home-img">  
+            <img width="40%" src="./Image/DSCF8311.png" alt="">
         </div>
         
     </section>
