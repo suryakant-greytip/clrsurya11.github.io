@@ -5,29 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- navbar -->
     <div id="nav-menu" >
-        <div class="topnav" id="mytopnav">
+        <a href="#" class="logo">Portfolio</a>
            
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
             <!-- <a href="#home"> <img id="logo"  src="./Images/logo.avif" alt=""></a> -->
-            <a href="#home"  class="nav-link home" class="active">HOME</a >
+            <a href="#home"  class="active">HOME</a >
             <a href="#about"  class="nav-link about" >ABOUT</a >
             <a href="#skills" class="nav-link skills" >SKILLS</a >
             <a href="#projects" class="nav-link projects" >PROJECTS</a >
             <a href="#contact" class="nav-link contact" >CONTACT</a >
+        </nav>    
                
-         <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="./Image/Suryakant-Singh-Resume.pdf" download="Suryakant_Singh_Resume" target="_blank">Resume</a></button></li>
+         <!-- <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="./Image/Suryakant-Singh-Resume.pdf" download="Suryakant_Singh_Resume" target="_blank">Resume</a></button></li>
 
-         <a href="javascript:void(0);" class="icon" onclick="myfunction()"> ☰ </a>
-        </div>
+         <a href="javascript:void(0);" class="icon" onclick="myfunction()"> ☰ </a> -->
     </div>
 
     <!-- homepage -->
     <div id="abo">
-    <section id="home">
+    <section id="home" class="home">
         <div id="card1">
             <h4>Hi<img width="50px"src="https://zoneanas.github.io/images/hello.gif" alt="">I am</h4>
             <h4 id="user-detail-name" > Suryakant Singh</h4>
