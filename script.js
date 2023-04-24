@@ -1,23 +1,23 @@
 
-function myfunction(){
-    document.getElementById("mytopnav").classList.toggle("responsive");
+// function myfunction(){
+//     document.getElementById("mytopnav").classList.toggle("responsive");
     
-}
-//navbar sticky
-window.onscroll = function() {myFunction()};
+// }
+// //navbar sticky
+// window.onscroll = function() {myFunction()};
 
 
-var mytopnav = document.getElementById("mytopnav");
+// var mytopnav = document.getElementById("mytopnav");
 
-var sticky = mytopnav.offsetTop;
+// var sticky = mytopnav.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    mytopnav.classList.add("sticky")
-  } else {
-    mytopnav.classList.remove("sticky");
-  }
-}
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     mytopnav.classList.add("sticky")
+//   } else {
+//     mytopnav.classList.remove("sticky");
+//   }
+// }
 
 GitHubCalendar(".calendar", "clrsurya11");
 // or enable responsive functionality
