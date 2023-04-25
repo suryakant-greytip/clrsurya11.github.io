@@ -28,7 +28,7 @@ body{
 }
 
 section{
-  min-height: 0vh;
+  min-height: 60vh;
   padding: 10rem 5% 2rem;
 }
 
@@ -132,8 +132,45 @@ span{
   color: var(--second-bg-color);
   letter-spacing: .1rem;
   font-weight: 600;
+  transition: .3s ease;
 }
 
 #resume-button-2:hover{
   box-shadow: none;
 }
+
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: var(--second-bg-color);
+}
+
+.about-img img{
+  width: 35vw;
+}
+
+.heading{
+  text-align: left;
+  font-size: 5rem;
+}
+
+#about-content h2{
+  text-align: left;
+  line-height: 1.6;
+}
+
+#about-content h3{
+  font-size: 3.6rem;
+  line-height: 1.4;
+}
+
+#about-content p{
+  font-size: 1.9rem;
+  word-spacing: 8px;
+  margin: 1rem 0 2rem;
+}
+
+
+
