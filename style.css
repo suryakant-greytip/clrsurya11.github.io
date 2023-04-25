@@ -77,7 +77,7 @@ span{
 
 #home{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-top: 20px;
 }
