@@ -212,11 +212,11 @@ span{
   font-size: 2.6rem;
 }
 
-#project{
+#projects{
   background: var(--second-bg-color);
 }
 
-#project h2{
+#projects h2{
   margin-bottom: 7rem;
 }
 
