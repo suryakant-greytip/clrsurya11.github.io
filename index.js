@@ -115,7 +115,7 @@ document.querySelector("#resume-button-1").addEventListener("click",()=>{
 
 
 var typing=new Typed(".text", {
-    strings: ["", "Backend", "Java", "DEVELOPER"],
+    strings: ["", "Java", "Backend", "DEVELOPER"],
     typeSpeed: 120,
     backSpeed: 50  ,
     loop: true,
@@ -129,13 +129,11 @@ let project_GrabYourFit = document.getElementById("project_GrabYourFit");
 let project_WMB = document.getElementById("project_WMB");
 let project_PigGame = document.getElementById("project_PigGame");
 
-let project_WorkoutFitnessCenter_Arr = ["./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter1.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter2.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter3.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter4.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter5.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter6.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter7.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter8.png"];
-let project_CloudTv_Arr = ["./images/projects/CloudTv/CloudTv1.png", "./images/projects/CloudTv/CloudTv2.png", "./images/projects/CloudTv/CloudTv3.png", "./images/projects/CloudTv/CloudTv4.png", "./images/projects/CloudTv/CloudTv5.png"];
-let project_TypeBattle_Arr = ["./images/projects/TypeBattle/TypeBattle1.png", "./images/projects/TypeBattle/TypeBattle2.png", "./images/projects/TypeBattle/TypeBattle3.png", "./images/projects/TypeBattle/TypeBattle4.png", "./images/projects/TypeBattle/TypeBattle5.png"];
-let project_OpenChat_Arr = ["./images/projects/OpenChat/OpenChat1.png", "./images/projects/OpenChat/OpenChat2.png", "./images/projects/OpenChat/OpenChat3.png", "./images/projects/OpenChat/OpenChat4.png"];
-let project_GrabYourFit_Arr = ["./images/projects/GrabYourFit/GrabYourFit1.png", "./images/projects/GrabYourFit/GrabYourFit2.png", "./images/projects/GrabYourFit/GrabYourFit3.png", "./images/projects/GrabYourFit/GrabYourFit4.png", "./images/projects/GrabYourFit/GrabYourFit5.png", "./images/projects/GrabYourFit/GrabYourFit6.png", "./images/projects/GrabYourFit/GrabYourFit7.png", "./images/projects/GrabYourFit/GrabYourFit8.png", "./images/projects/GrabYourFit/GrabYourFit9.png"];
-let project_WMB_Arr = ["./images/projects/WMB/WMB1.png", "./images/projects/WMB/WMB2.png", "./images/projects/WMB/WMB3.png", "./images/projects/WMB/WMB4.png", "./images/projects/WMB/WMB5.png", "./images/projects/WMB/WMB6.png"];
-let project_PigGame_Arr = ["./images/projects/PigGame/PigGame1.png", "./images/projects/PigGame/PigGame2.png", "./images/projects/PigGame/PigGame3.png", "./images/projects/PigGame/PigGame4.png", "./images/projects/PigGame/PigGame5.png", "./images/projects/PigGame/PigGame6.png", "./images/projects/PigGame/PigGame7.png", "./images/projects/PigGame/PigGame8.png", "./images/projects/PigGame/PigGame9.png", "./images/projects/PigGame/PigGame10.png", "./images/projects/PigGame/PigGame11.png", "./images/projects/PigGame/PigGame12.png", "./images/projects/PigGame/PigGame13.png", "./images/projects/PigGame/PigGame14.png"];
+
+// let project_TypeBattle_Arr = ["./images/projects/TypeBattle/TypeBattle1.png", "./images/projects/TypeBattle/TypeBattle2.png", "./images/projects/TypeBattle/TypeBattle3.png", "./images/projects/TypeBattle/TypeBattle4.png", "./images/projects/TypeBattle/TypeBattle5.png"];
+// let project_OpenChat_Arr = ["./images/projects/OpenChat/OpenChat1.png", "./images/projects/OpenChat/OpenChat2.png", "./images/projects/OpenChat/OpenChat3.png", "./images/projects/OpenChat/OpenChat4.png"];
+// let project_GrabYourFit_Arr = ["./images/projects/GrabYourFit/GrabYourFit1.png", "./images/projects/GrabYourFit/GrabYourFit2.png", "./images/projects/GrabYourFit/GrabYourFit3.png", "./images/projects/GrabYourFit/GrabYourFit4.png", "./images/projects/GrabYourFit/GrabYourFit5.png", "./images/projects/GrabYourFit/GrabYourFit6.png", "./images/projects/GrabYourFit/GrabYourFit7.png", "./images/projects/GrabYourFit/GrabYourFit8.png", "./images/projects/GrabYourFit/GrabYourFit9.png"];
+// let project_PigGame_Arr = ["./images/projects/PigGame/PigGame1.png", "./images/projects/PigGame/PigGame2.png", "./images/projects/PigGame/PigGame3.png", "./images/projects/PigGame/PigGame4.png", "./images/projects/PigGame/PigGame5.png", "./images/projects/PigGame/PigGame6.png", "./images/projects/PigGame/PigGame7.png", "./images/projects/PigGame/PigGame8.png", "./images/projects/PigGame/PigGame9.png", "./images/projects/PigGame/PigGame10.png", "./images/projects/PigGame/PigGame11.png", "./images/projects/PigGame/PigGame12.png", "./images/projects/PigGame/PigGame13.png", "./images/projects/PigGame/PigGame14.png"];
 
 project_WorkoutFitnessCenter.addEventListener("mouseover",()=>{ 
     let count=0;
